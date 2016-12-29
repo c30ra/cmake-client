@@ -1,0 +1,29 @@
+{
+  "name": "cmake-client",
+  "version": "1.0.0",
+  "description": "A CMake client to use with cmake server mode",
+  "bugs": "https://github.com/c30ra/cmake-client/issues",
+  "license": "GPL-3.0",
+  "main": "index.js",
+  "keywords": [
+    "cmake",
+    "client",
+    "server"
+  ],
+  "author": "Luca Carella <bkarelb at gmail dot com>",
+  "files" : [
+    "lib/cmake-client.js",
+    "lib/request.js",
+    "example/example.js",
+    "example/CMakeSample/main.cpp",
+    "example/CMakeSample/CMakeLists.txt"
+  ],
+  "directories" : {
+    "lib" : "lib",
+    "example" : "example"
+  },
+  "repository":"https://github.com/c30ra/cmake-client.git",
+  "optionalDependencies" : {
+    "ansicolors" : "0.3.2"
+  }
+}
