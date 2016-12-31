@@ -1,4 +1,4 @@
-# cmake-client v0.1.0
+# cmake-client v1.0.0
 
 ## Usage:
 - Require CMakeClient:  
